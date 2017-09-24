@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="common-utils" />
+        <module name="shopsite-api-common" />
+        <module name="shopsite-api-rpc-api" />
+        <module name="shopsite-api-rpc-service" />
+        <module name="shopsite-api-server" />
+        <module name="shopsite-cms-admin" />
+        <module name="shopsite-cms-common" />
+        <module name="shopsite-cms-dao" />
+        <module name="shopsite-cms-job" />
+        <module name="shopsite-cms-rpc-api" />
+        <module name="shopsite-cms-rpc-service" />
+        <module name="shopsite-cms-search" />
+        <module name="shopsite-cms-web" />
+        <module name="shopsite-manage-mapper" />
+        <module name="shopsite-manage-pojo" />
+        <module name="shopsite-manage-service" />
+        <module name="shopsite-manage-web" />
+        <module name="shopsite-staticweb-demo" />
+        <module name="shopsite-upms-client" />
+        <module name="shopsite-upms-common" />
+        <module name="shopsite-upms-dao" />
+        <module name="shopsite-upms-rpc-api" />
+        <module name="shopsite-upms-rpc-service" />
+        <module name="shopsite-upms-server" />
+        <module name="shopsite-usercenter-common" />
+        <module name="shopsite-usercenter-dao" />
+        <module name="shopsite-usercenter-rpc-api" />
+        <module name="shopsite-usercenter-rpc-service" />
+        <module name="shopsite-usercenter-web" />
+        <module name="shopsite-wechat-app" />
+        <module name="shopsite-wechat-mp" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common-parent" target="1.7" />
+      <module name="common-utils" target="1.7" />
+      <module name="shopsite-api" target="1.7" />
+      <module name="shopsite-api-common" target="1.7" />
+      <module name="shopsite-api-rpc-api" target="1.7" />
+      <module name="shopsite-api-rpc-service" target="1.7" />
+      <module name="shopsite-api-server" target="1.7" />
+      <module name="shopsite-cms" target="1.7" />
+      <module name="shopsite-cms-admin" target="1.7" />
+      <module name="shopsite-cms-common" target="1.7" />
+      <module name="shopsite-cms-dao" target="1.5" />
+      <module name="shopsite-cms-job" target="1.7" />
+      <module name="shopsite-cms-rpc-api" target="1.7" />
+      <module name="shopsite-cms-rpc-service" target="1.7" />
+      <module name="shopsite-cms-search" target="1.7" />
+      <module name="shopsite-cms-web" target="1.7" />
+      <module name="shopsite-manage" target="1.7" />
+      <module name="shopsite-manage-mapper" target="1.7" />
+      <module name="shopsite-manage-pojo" target="1.7" />
+      <module name="shopsite-manage-service" target="1.7" />
+      <module name="shopsite-manage-web" target="1.7" />
+      <module name="shopsite-staticweb-demo" target="1.5" />
+      <module name="shopsite-upms" target="1.7" />
+      <module name="shopsite-upms-client" target="1.7" />
+      <module name="shopsite-upms-common" target="1.5" />
+      <module name="shopsite-upms-dao" target="1.7" />
+      <module name="shopsite-upms-rpc-api" target="1.7" />
+      <module name="shopsite-upms-rpc-service" target="1.7" />
+      <module name="shopsite-upms-server" target="1.7" />
+      <module name="shopsite-usercenter" target="1.7" />
+      <module name="shopsite-usercenter-common" target="1.7" />
+      <module name="shopsite-usercenter-dao" target="1.7" />
+      <module name="shopsite-usercenter-rpc-api" target="1.7" />
+      <module name="shopsite-usercenter-rpc-service" target="1.7" />
+      <module name="shopsite-usercenter-web" target="1.7" />
+      <module name="shopsite-wechat" target="1.5" />
+      <module name="shopsite-wechat-app" target="1.5" />
+      <module name="shopsite-wechat-mp" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

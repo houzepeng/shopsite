@@ -1,0 +1,49 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>shopsite-upms</artifactId>
+        <groupId>com.hzp</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../shopsite-upms/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>shopsite-cms</artifactId>
+    <packaging>pom</packaging>
+
+  <name>shopsite-cms</name>
+  <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+        <maven.compiler.compilerVersion>1.7</maven.compiler.compilerVersion>
+    </properties>
+    <modules>
+        <module>shopsite-cms-dao</module>
+        <module>shopsite-cms-rpc-api</module>
+        <module>shopsite-cms-rpc-service</module>
+        <module>shopsite-cms-web</module>
+        <module>shopsite-cms-job</module>
+        <module>shopsite-cms-search</module>
+        <module>shopsite-cms-admin</module>
+        <module>shopsite-cms-common</module>
+        <module>shopsite-cms-rpc-api</module>
+        <module>shopsite-cms-rpc-service</module>
+        <module>shopsite-cms-job</module>
+        <module>shopsite-cms-search</module>
+        <module>shopsite-cms-common</module>
+        <module>shopsite-cms-admin</module>
+        <module>shopsite-cms-web</module>
+    </modules>
+  <dependencies>
+      <dependency>
+          <groupId>junit</groupId>
+          <artifactId>junit</artifactId>
+          <version>3.8.1</version>
+          <scope>test</scope>
+      </dependency>
+  </dependencies>
+</project>

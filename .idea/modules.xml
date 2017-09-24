@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common-parent/common-parent.iml" filepath="$PROJECT_DIR$/common-parent/common-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-utils/common-utils.iml" filepath="$PROJECT_DIR$/common-utils/common-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-api/shopsite-api.iml" filepath="$PROJECT_DIR$/shopsite-api/shopsite-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-api/shopsite-api-common/shopsite-api-common.iml" filepath="$PROJECT_DIR$/shopsite-api/shopsite-api-common/shopsite-api-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-api/shopsite-api-rpc-api/shopsite-api-rpc-api.iml" filepath="$PROJECT_DIR$/shopsite-api/shopsite-api-rpc-api/shopsite-api-rpc-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-api/shopsite-api-rpc-service/shopsite-api-rpc-service.iml" filepath="$PROJECT_DIR$/shopsite-api/shopsite-api-rpc-service/shopsite-api-rpc-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-api/shopsite-api-server/shopsite-api-server.iml" filepath="$PROJECT_DIR$/shopsite-api/shopsite-api-server/shopsite-api-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-cms/shopsite-cms.iml" filepath="$PROJECT_DIR$/shopsite-cms/shopsite-cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-cms/shopsite-cms-admin/shopsite-cms-admin.iml" filepath="$PROJECT_DIR$/shopsite-cms/shopsite-cms-admin/shopsite-cms-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-cms/shopsite-cms-common/shopsite-cms-common.iml" filepath="$PROJECT_DIR$/shopsite-cms/shopsite-cms-common/shopsite-cms-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-cms/shopsite-cms-dao/shopsite-cms-dao.iml" filepath="$PROJECT_DIR$/shopsite-cms/shopsite-cms-dao/shopsite-cms-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-cms/shopsite-cms-job/shopsite-cms-job.iml" filepath="$PROJECT_DIR$/shopsite-cms/shopsite-cms-job/shopsite-cms-job.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-cms/shopsite-cms-rpc-api/shopsite-cms-rpc-api.iml" filepath="$PROJECT_DIR$/shopsite-cms/shopsite-cms-rpc-api/shopsite-cms-rpc-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-cms/shopsite-cms-rpc-service/shopsite-cms-rpc-service.iml" filepath="$PROJECT_DIR$/shopsite-cms/shopsite-cms-rpc-service/shopsite-cms-rpc-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-cms/shopsite-cms-search/shopsite-cms-search.iml" filepath="$PROJECT_DIR$/shopsite-cms/shopsite-cms-search/shopsite-cms-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-cms/shopsite-cms-web/shopsite-cms-web.iml" filepath="$PROJECT_DIR$/shopsite-cms/shopsite-cms-web/shopsite-cms-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-manage/shopsite-manage.iml" filepath="$PROJECT_DIR$/shopsite-manage/shopsite-manage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-manage/shopsite-manage-mapper/shopsite-manage-mapper.iml" filepath="$PROJECT_DIR$/shopsite-manage/shopsite-manage-mapper/shopsite-manage-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-manage/shopsite-manage-pojo/shopsite-manage-pojo.iml" filepath="$PROJECT_DIR$/shopsite-manage/shopsite-manage-pojo/shopsite-manage-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-manage/shopsite-manage-service/shopsite-manage-service.iml" filepath="$PROJECT_DIR$/shopsite-manage/shopsite-manage-service/shopsite-manage-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-manage/shopsite-manage-web/shopsite-manage-web.iml" filepath="$PROJECT_DIR$/shopsite-manage/shopsite-manage-web/shopsite-manage-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-staticweb-demo/shopsite-staticweb-demo.iml" filepath="$PROJECT_DIR$/shopsite-staticweb-demo/shopsite-staticweb-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-upms/shopsite-upms.iml" filepath="$PROJECT_DIR$/shopsite-upms/shopsite-upms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-upms/shopsite-upms-client/shopsite-upms-client.iml" filepath="$PROJECT_DIR$/shopsite-upms/shopsite-upms-client/shopsite-upms-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-upms/shopsite-upms-common/shopsite-upms-common.iml" filepath="$PROJECT_DIR$/shopsite-upms/shopsite-upms-common/shopsite-upms-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-upms/shopsite-upms-dao/shopsite-upms-dao.iml" filepath="$PROJECT_DIR$/shopsite-upms/shopsite-upms-dao/shopsite-upms-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-upms/shopsite-upms-rpc-api/shopsite-upms-rpc-api.iml" filepath="$PROJECT_DIR$/shopsite-upms/shopsite-upms-rpc-api/shopsite-upms-rpc-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-upms/shopsite-upms-rpc-service/shopsite-upms-rpc-service.iml" filepath="$PROJECT_DIR$/shopsite-upms/shopsite-upms-rpc-service/shopsite-upms-rpc-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-upms/shopsite-upms-server/shopsite-upms-server.iml" filepath="$PROJECT_DIR$/shopsite-upms/shopsite-upms-server/shopsite-upms-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-usercenter/shopsite-usercenter.iml" filepath="$PROJECT_DIR$/shopsite-usercenter/shopsite-usercenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-usercenter/shopsite-usercenter-common/shopsite-usercenter-common.iml" filepath="$PROJECT_DIR$/shopsite-usercenter/shopsite-usercenter-common/shopsite-usercenter-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-usercenter/shopsite-usercenter-dao/shopsite-usercenter-dao.iml" filepath="$PROJECT_DIR$/shopsite-usercenter/shopsite-usercenter-dao/shopsite-usercenter-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-usercenter/shopsite-usercenter-rpc-api/shopsite-usercenter-rpc-api.iml" filepath="$PROJECT_DIR$/shopsite-usercenter/shopsite-usercenter-rpc-api/shopsite-usercenter-rpc-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-usercenter/shopsite-usercenter-rpc-service/shopsite-usercenter-rpc-service.iml" filepath="$PROJECT_DIR$/shopsite-usercenter/shopsite-usercenter-rpc-service/shopsite-usercenter-rpc-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-usercenter/shopsite-usercenter-web/shopsite-usercenter-web.iml" filepath="$PROJECT_DIR$/shopsite-usercenter/shopsite-usercenter-web/shopsite-usercenter-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-wechat/shopsite-wechat.iml" filepath="$PROJECT_DIR$/shopsite-wechat/shopsite-wechat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-wechat/shopsite-wechat-app/shopsite-wechat-app.iml" filepath="$PROJECT_DIR$/shopsite-wechat/shopsite-wechat-app/shopsite-wechat-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopsite-wechat/shopsite-wechat-mp/shopsite-wechat-mp.iml" filepath="$PROJECT_DIR$/shopsite-wechat/shopsite-wechat-mp/shopsite-wechat-mp.iml" />
+    </modules>
+  </component>
+</project>

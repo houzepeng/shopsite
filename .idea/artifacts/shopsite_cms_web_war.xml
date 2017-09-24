@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="shopsite-cms-web:war">
+    <output-path>$PROJECT_DIR$/shopsite-cms/shopsite-cms-web/target</output-path>
+    <root id="archive" name="shopsite-cms-web.war">
+      <element id="artifact" artifact-name="shopsite-cms-web:war exploded" />
+    </root>
+  </artifact>
+</component>
