@@ -1,0 +1,152 @@
+SVN地址：https://shv500wiap00001.citsae.corp/svn/InternalProjects
+jeecg-oa-项目资本化---http://10.181.57.120:9081/jeecg-oa/loginController.do?login 
+hrbox---http://10.181.57.210/internalweb/index.jsp
+kao----http://10.181.3.30:9080/kaoii/index.jsp
+kaoii:账号：1043
+      密码：123456
+	  单位名称：深圳麦亚信科技股份有限公司上海分公司
+单位账号：884266567205
+T_SENDAUTOPDF_CONFIG
+--------------------------------
+10.181.10.164 kevin.yi
+ 导入execle,步骤--选中数据库点击--任务--导入数据--
+--------------------------------
+测试环境：远程桌面：10.181.57.250
+--http://10.181.57.250:7080/kaoii/index.jsp
+远程连接服务器查看日志文件：tail -f \\10.181.3.30\kaoV6\logs\kao.log
+-----------------------------------
+账号密码：
+dpsv6
+psv6+2015
+10.181.57.120（账号：dpsv6，密码：psv6+2015）
+-----------------------------------------------
+SICT和SIAT类型属于月结的卡，不走kao发送pdf.
+-------------------------------------------
+正式环境：10.181.3.30 密码：123 《vnc登录》
+--http://10.181.3.30:9080/kaoii/index.jsp
+原先日志放到：10.181.3.28
+--------------------------------------------
+刷卡方式：select * from KAO_SWIPE_MODE;
+manual 类型的会插入到card_swipe_pre (arsubmit)
+---------------------
+#KAO invoke PS API
+#BJS_PSXMLSoapEndpointAddress=http://10.181.1.78/PowerSuite/psxml.asmx?wsdl
+#CAN_PSXMLSoapEndpointAddress=http://10.181.4.1/PowerSuite/psxml.asmx?wsdl
+#SHA_PSXMLSoapEndpointAddress=http://10.181.57.80/PowerSuite/psxml.asmx?wsdl
+
+#690 PS 测试地址 KAO invoke PS API
+BJS_PSXMLSoapEndpointAddress=http://10.181.1.77/PowerSuite/psxml.asmx?wsdl
+CAN_PSXMLSoapEndpointAddress=http://10.181.4.10/PowerSuite/psxml.asmx?wsdl
+SHA_PSXMLSoapEndpointAddress=http://10.181.57.82/PowerSuite/psxml.asmx?wsdl 
+-------------------------------------------------------------------------------
+//			正式环境
+//			Socket ClientSocket = new Socket("85.2.2.32",11015);
+//			测试环境
+			Socket ClientSocket = new Socket("85.6.157.95",11015);
+CardPOS.java  ----
+
+---------------------------------------------------------------------------------
+数据库：测试环境：10.181.57.248
+		正式环境：10.181.57.118
+----------------------------------------------------------------------------------
+\\10.181.57.4\IT Folder\Tech Support\server_install_evironment
+
+共享地址：\\10.181.3.142\
+生产：10.181.3.30  123
+---------------------------------------------------------------------
+//如果没有发送成功邮件需要通过以下方式去查找问题：
+ 1.通过vnc登录10.181.3.30在C盘下找到v6的日志
+ 2.拷贝日志文件到\\10.181.57.4\IT Folder\KAO_TEMP
+ 3.根据给出的invNo在日志中找到，发送邮件的主题，发送时间，发件服务器等。
+ ---------------------------------------------------------------------
+
+虚拟机用户名：HZP
+密码：aimr0215
+192.168.96.129
+
+---------------------------
+---------------------------
+1.JS中的方法对应于service中的方法，通过dwr.xml找到对应的method.
+
+2.kao系统中 用到的JS:default.js
+3.Commonutils.java  dwr.xml kaoaction,java,kaoService.java
+
+
+账号：s2333  密码：123456
+MPP生产环境（MPP）：10.181.100.140 
+loginame：kaompp
+pwd: kao$497102 
+#MPP
+PS_DRIVER_MPP=com.microsoft.sqlserver.jdbc.SQLServerDriver
+PS_URL_MPP=jdbc:sqlserver://10.181.100.140:1433;databasename=MPP
+PS_USERNAME_MPP=kaompp
+PS_PASSWORD_MPP=kao$497102
+
+
+ 
+ ---------------------------
+项目资本话：CITSAMEX -->pBenefits_GetUserInfo （存储过程）--获取用户信息
+管理员账号：admin,123456 
+project capitalization 
+ http://10.181.57.120:9081/jeecg-oa/loginController.do?login# :项目资本化项目
+ ----------------
+ 4新建RFP
+	(1)基本信息..(客户ID，客户姓名，年份，备注)
+	(2)从题库中添加问题到RFP中（需要可排序，新增问题）
+	(3)上传酒店列表（上传，下载模板）
+	(4)第一轮报价的时限设置 Due date Chase date
+-->跳转到设置发送邮件的页面
+
+1.首先新建RFP项目（录入基本信息：客户ID，客户姓名，年份，备注）
+2.导入问题
+3.填写问题
+4.进行议价
+5.确认报价
+ 
+kevin.yi 账号
+759329342 密码
+eason.yi@citsgbt.com账号
+123456密码
+正式的：jdbc:jtds:sqlserver://10.181.57.61:1433/DataRFP 
+ 
+-------------------------------------------------------
+
+ 
+ 
+ 
+ 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+select EMP_EMAIL from  HR_EMPLOYEE where ltrim(rtrim(EMP_BEDGENO))='S1776' and  EMP_CITY = 'SHA' + and EMP_EMAIL = 'kevin.lu@citsgbt.com' 
+HR-BOX
+无法重置密码根据上面的SQL去查询。
+-------------------------
+1.spring
+2.mybatis
+3.dubbo
+4.前端js
+5.数据库
+6.虚拟机
+7.mq
+8.redis
+9.
+
+BCCT00562916 BCCT00564280  ---7229
+
+-------------------------------------
+生成PDF有问题的：
+SQL语句：
+SELECT INVNO,convert(varchar,GRPLINENO) as GRPLINENO,SEQNO,TAXCODE+' ' +TAXCURCODE+' '+convert(varchar,TAXAMT) as TAXDETAIL , TAXREMARK  
+FROM ARINVGRPTAX WHERE INVNO = 'SCCT00196963' ORDER BY GRPLINENO, SEQNO
+-----------------------
+non pdf file found, invno=SCCT00196963   --16
+non pdf file found, invno=SCCT00196965	 --17
+non pdf file found, invno=SCCT00196975   --26
+non pdf file found, invno=SCCT00196980   --15
+non pdf file found, invno=SCCT00197157   --15
+--------
+select a.baseinvamt,a.ccardamt,e.invoiceamt,e.basecurcod, ISNULL(e.BILLADDR,'') as 
+compaddr  from arinv as a with(nolock)  LEFT JOIN ARINV AS Z with(nolock) ON Z.INVNO=A.SPLITREF  
+LEFT JOIN arinvgrp as c with(nolock) on a.invno=c.invno   LEFT JOIN arinvgrppax as f with(nolock) 
+on c.invno=f.invno and c.grplineno=f.grplineno  LEFT JOIN  INPROTY as b with(nolock) on b.PRODCODE=c.PRODCODE left join arcust as d on a.custno=d.custno  
+LEFT JOIN ARSO AS e with(nolock) ON A.SPLITREF=e.INVNO OR e.INVNO=Z.SPLITREF where a.invno='SCCT00196963'
